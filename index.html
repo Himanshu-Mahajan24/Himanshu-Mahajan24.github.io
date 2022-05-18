@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Converter</title>
+   <link rel="stylesheet" href="index.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container-md main-container">
+      <h1 class="header">Encode to Base64 format</h1>
+      <div>
+         <input type="text" class="text-box" id="string-to-encode" placeholder="type or paste value">
+         <button id="encode-btn" class="btn btn-success">Encode</button>
+      </div>
+      <br>
+      <div class="input-group">
+         <span class="input-group-text bg-success p-2 text-white">encoded-result</span>
+         <textarea class="form-control bg-success p-2 text-dark bg-opacity-25" id="encoded-result" aria-label="With textarea"></textarea>
+      </div>
+   </div>
+
+   
+   <script type="module" src="encoder.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
