@@ -1,0 +1,11 @@
+
+
+.main-container {
+  margin-top: 100px;
+};
+
+.text-box {
+  line-height: 50px !important;
+  border-radius: 50px;
+  width: 300px;
+};
